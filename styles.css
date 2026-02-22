@@ -140,7 +140,7 @@ input:autofill {
 
 input:focus {
   outline: none;
-  border: 0.125rem solid #da3d20;
+  border: 0.125rem solid #ff4f00;
 }
 
 .account {
