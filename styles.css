@@ -130,8 +130,17 @@ input {
   border: 0.0125rem solid #c14947;
   border-radius: 3px;
   background-color: white;
-  padding-left: 12px;
+  padding-left: 5px;
   color: #c14947;
+}
+
+input:autofill {
+  -webkit-text-fill-color: #da3d20;
+}
+
+input:focus {
+  outline: none;
+  border: 0.125rem solid #da3d20;
 }
 
 .account {
@@ -153,10 +162,6 @@ button {
 }
 
 button:hover {
-  background-color: #c14947;
+  background-color: #da3d20;
   color: #fdf8f0;
-}
-
-span {
-  color: #c14947;
 }
