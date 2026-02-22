@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- IMAGE -->
+    <section>
+      <div class="overlay">
+        <img src="img/242 wine.png" alt="A bottle of wine wrapped in barbed wire with a rose at the top">
+      </div>
+       <img src="img/242 wine.png" alt="A rose sitting in a bottle of wine wrapped with barbed wire" class="logo">
+      <img
+        src="img/wine.jpg"
+        alt="Bungalows over Maldives water"
+      />
+    </section>
+
+    <main>
+      <!-- INTRODUCTION -->
+      <div class="intro">
+        <p class="discount">GET <br />10% OFF</p>
+        <p class="subscription">YOUR FIRST SUBSCRIPTION BOX</p>
+      </div>
+
+      <!-- FORM -->
+      <form action="" class="form">
+        <h1 class="join">JOIN TODAY!</h1>
+
+        <!-- FULL NAME -->
+        <div class="application">
+          <div class="full_name">
+            <div class="first">
+              <label for="first">FIRST NAME</label>
+              <input type="text" id="first" required/>
+            </div>
+
+            <!-- LAST NAME -->
+            <div class="last">
+              <label for="last">LAST NAME</label>
+              <input type="text" id="last" /required>
+            </div>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="contact">
+            <!-- EMAIL -->
+            <div class="email">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email"required />
+            </div>
+
+            <!-- PHONE NUMBER -->
+            <div class="phone">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="text" id="phone" required/>
+            </div>
+          </div>
+
+          <!-- PASSWORD -->
+          <div class="passwords">
+            <div class="password">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="pasrequiredsword" />
+            </div>
+
+            <!-- CONFIRM PASSWORD -->
+            <div class="confirm">
+              <label for="confirm">CONFIRM PASSWORD</label>
+              <input type="password" id="conrequiredfirm" />
+            </div>
+          </div>
+        </div>
+
+        <!-- ACCOUNT -->
+        <div class="account">
+          <button>Create Account</button>
+          <p class="login">Already have an account? <span>Log in</span></p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
